@@ -1,0 +1,24 @@
+
+.logo{
+    font-size: 24px;
+}
+.btn{
+    display: flex;
+    margin-top: 20px;
+    max-height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.remember{
+    text-align: right;
+    padding: 0!important;
+    margin-top: 20px;
+}
+.checkb{
+    &::before{
+        width: 12px!important;
+        height: 12px!important;
+        margin: 6px auto!important;
+        top: 0!important;
+    }
+}
